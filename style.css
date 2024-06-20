@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.btns {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.btns_menu {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+section {
+    width: 100%; 
+    height: 1200px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color : black
+    
+}
+
+#home {
+    background-color: #ffffff;
+}
+
+#Poster {
+    background-color: #87CEEB; 
+}
+
+#Mobile {
+    background-color: #ffffff;
+}
+
+#Mockup {
+    background-color: #87CEEB; 
+}
+
+#Webt {
+    background-color: #ffffff;
+}
+
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+#home img {
+    height: auto;
+}
+
+#Poster img {
+    width: 500px;
+    height: 700px;
+    margin: 10px;
+}
+
+#home .wrapper {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.row {
+    /* display: flex; */
+    gap: 20px;
+}
+
+#home img {
+    width: 300px; 
+    height: auto;
+    margin: 10px; 
+}
+
+#home .content {
+    display: block;
+    /* align-items: flex-start; */
+    margin-right: 20px;
+}
+
+#home .subcontent {
+    display: block;
+    /* justify-content: flex-end; */
+    align-items: center;
+}
+
+#Mobile img {
+    width: 1000px;
+    height: auto;
+
+}
+
+#web img {
+    width: 900px;
+    height: auto;
+
+}
+
+#Mockup img {
+    width: 800px;
+    height: 800px;
+    margin: 10px;
+}
+
+#Poster .content {
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+  
+
+}
+
+#Mockup .content {
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+#Mobile .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#Poster .content {
+    margin-top: 100px;
+}
+#Mockup .content {
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 70px;
+}
+#Mobile .content {
+    margin-top: 70px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+#home .content {
+    margin-top: 70px;
+}
+
+#home .subcontent {
+    margin-top: 100px;
+}
